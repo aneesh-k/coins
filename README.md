@@ -5,5 +5,7 @@ KT Sessions on Blockchain
 -- Create an account in infurio and create a project
 
 -- create ".env" file in root and add below varible accordingly
+
 phrase={Account's Mnemonic Phrase}
+
 infurio_endpoint={infurio's Rinkeby endpoint URL}
