@@ -22,7 +22,6 @@ const deploy = async () => {
 
 	const deployOptions = {
 		data: compileCode.bytecode,
-		arguments: ["Init setup"],
 	};
 
 	const sendOptions = {

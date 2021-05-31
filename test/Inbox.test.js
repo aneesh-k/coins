@@ -1,14 +1,14 @@
 // contract test code will go here
-const ganasche = require("ganache-cli");
-const Web3 = require("web3");
-const web3 = new Web3(ganasche.provider());
-const compileCode = require("../compile");
+// const ganasche = require("ganache-cli");
+// const Web3 = require("web3");
+// const web3 = new Web3(ganasche.provider());
+// const compileCode = require("../compile");
 // require("dotenv").config();
 
 let accounts;
 let inbox;
 
-describe("Deploy contract", async () => {
+describe.skip("Deploy contract", async () => {
 	it("Deploy function", async () => {
 		console.log(accounts);
 		inbox = await new web3.eth.Contract(JSON.parse(compileCode.interface))
